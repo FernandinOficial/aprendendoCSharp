@@ -23,3 +23,6 @@ Códigos:
 	Declarando Váriaveis:
 		string NOME; Nome é do tipo "letras"
 	NOME = Console.ReadLine();	a var vai receber o que for escrito
+	
+		int A, B, R; variaveis A,B,R do tipo Inteiro
+		int.Parse Converte os caracteres recebidos em numeros inteiros

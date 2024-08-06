@@ -10,6 +10,11 @@ namespace Cap02_Ex02
     {
         static void Main(string[] args)
         {
+            int A, B, R;
+
+            Console.Write("Entre o 1o. valor:");
+            A  = int.Parse(Console.ReadLine());
+
         }
     }
 }
