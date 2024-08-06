@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{AB90E844-4B24-4154-89DC-B990092443EB}</ProjectGuid>
+    <ProjectGuid>{6282E968-75E3-4ABA-B6AF-293057FA8C69}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>aprendendocsharp</RootNamespace>
-    <AssemblyName>aprendendocsharp</AssemblyName>
+    <RootNamespace>Cap02_Ex01</RootNamespace>
+    <AssemblyName>Cap02_Ex01</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -48,9 +48,6 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
-  </ItemGroup>
-  <ItemGroup>
-    <Content Include="anotacoes.txt" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

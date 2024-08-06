@@ -1,0 +1,7 @@
+﻿Como criar projetos: 
+	Pesquisar por -> Console . Tipo: C# . Plataforma: Windows 
+	-> Aplicativo do Console (.NET Framework)
+	Nome do projeto
+
+Códigos:
+	
