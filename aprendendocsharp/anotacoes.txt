@@ -19,3 +19,7 @@ Códigos:
 	Console.Write("Hello World");
 	Console.ReadKey();
 	Console.Read(); 
+
+	Declarando Váriaveis:
+		string NOME; Nome é do tipo "letras"
+	NOME = Console.ReadLine();	a var vai receber o que for escrito

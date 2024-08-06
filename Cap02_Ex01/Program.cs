@@ -10,6 +10,16 @@ namespace Cap02_Ex01
     {
         static void Main(string[] args)
         {
+            string NOME;
+            Console.Write("Entre seu nome: ");
+            NOME = Console.ReadLine();
+            Console.WriteLine("Ola, " + NOME);
+        
+            
+            Console.WriteLine();
+            Console.WriteLine("Tecle <ENTER> para encerrar...");
+            Console.ReadLine();
+            
         }
     }
 }
