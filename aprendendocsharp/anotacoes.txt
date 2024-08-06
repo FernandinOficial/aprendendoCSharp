@@ -4,4 +4,18 @@
 	Nome do projeto
 
 Códigos:
-	
+	Para comentar em linha: //
+	Para comentar em bloco: /* */
+
+	Na maior parte dos código, os Métodos são acompanhados com
+	o Console.
+	Método WhiteLine: Escrever e quebrar a linha
+	Método White: Somente escrever
+	Método ReadKey: Espera alguma tecla ser pressionada para fechar a execução
+	Método Read: Espera ser digitado as teclas ou somente clicar Enter para finalizar
+	Sempre finalizados com ';' ponto e vírgula
+
+	Console.Write("Pressione Qualquer Tecla...");
+	Console.Write("Hello World");
+	Console.ReadKey();
+	Console.Read(); 
