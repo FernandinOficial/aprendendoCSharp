@@ -3,26 +3,87 @@
 	-> Aplicativo do Console (.NET Framework)
 	Nome do projeto
 
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
 Códigos:
-	Para comentar em linha: //
-	Para comentar em bloco: /* */
 
-	Na maior parte dos código, os Métodos são acompanhados com
-	o Console.
-	Método WhiteLine: Escrever e quebrar a linha
-	Método White: Somente escrever
-	Método ReadKey: Espera alguma tecla ser pressionada para fechar a execução
-	Método Read: Espera ser digitado as teclas ou somente clicar Enter para finalizar
-	Sempre finalizados com ';' ponto e vírgula
+	COMENTARIOS
+		Para comentar em linha: //
+		Para comentar em bloco: /* */
 
-	Console.Write("Pressione Qualquer Tecla...");
-	Console.Write("Hello World");
-	Console.ReadKey();
-	Console.Read(); 
+	METODOS
+		Na maior parte dos código, os métodos são acompanhados com
+		o Console.
+		Método WhiteLine: Escrever e quebrar a linha
+		Método White: Somente escrever
+		Método ReadKey: Espera alguma tecla ser pressionada para fechar a execução
+		Método Read: Espera ser digitado as teclas ou somente clicar Enter para finalizar
+		Sempre finalizados com ';' ponto e vírgula
+
+		Console.Write("Pressione Qualquer Tecla...");
+		Console.Write("Hello World");	
+		Console.ReadKey();		
+		Console.Read();
+
 
 	Declarando Váriaveis:
 		string NOME; Nome é do tipo "letras"
 	NOME = Console.ReadLine();	a var vai receber o que for escrito
 	
-		int A, B, R; variaveis A,B,R do tipo Inteiro
+	Console.WriteLine(SL.ToString("##,##0.00"));  ->  é uma mascara para o float de Salario Liquido onde tem virgula e ponto como decimal
+	
+	VARIAVEIS
+	int A, B, R; variaveis A,B,R do tipo Inteiro
 		int.Parse Converte os caracteres recebidos em numeros inteiros
+
+		float.Parse(Console.ReadLine());	Vai receber um float na variavel instanciada, pode ser outros tipo como: int.Parse();
+		Console.WriteLine(SL.ToString("##,##0.00"));    Vai converter o float ao formato soliciatado
+	EXPRESSOES
+	&& -> E
+	|| -> OU
+	!  -> NAO
+	!= -> DIFERENTE
+	^  -> Expressão XOR (expressão OR) if (SEXO1 == "M" ^ SEXO2 == "M") se 1 deles for diferente vai retornar TRUE, se forem iguais vai retornar FALSE (ex. Cap3_Ex05)
+
+	DESVIO CONDICIONAL SIMPLES
+		if (!(C > 5))   se C não for maior que 5 entao	CONDIÇÃO
+
+	DESVIO CONDICIONAL COMPOSTO
+		if()
+		else
+
+	DESVIO CONDICIONAL ENCADEADO
+		if()
+			else if()
+			else if()
+		else
+
+	ESCOLHA
+		SWITCH = ESCOLHA
+		switch (MES)	-> o MES é a variavel local para o CASO		switch so avalia a condição
+		{
+			case 0: Console.WriteLine("Janeiro"); break;
+				break faz com que a execução saia imediatamente do bloco da linha ao encontrar
+		}
+			default -> serve como ELSE caso nenhuma anterior seja escolhida
+	
+	RANDOM	NUMEROS PSEUDOALEATORIOS
+		Random RANDOMICO = new Random();	Random -> classe System.Random = gerador de número pseudoaleátorio como seeds
+				acima RANDOMICO variavel local
+			new Random();  ->  nova instância da classe Random
+			NR = RANDOMICO.Next(1, 6);  //NR vai receber o retorno do intervalo especificado pelo método .Next(1, 6);
+
+	OUTROS MÉTODOS como "DESVIO CONDICIONAL"
+		TRY são exceções onde que vai tentar executar o TRY e caso não der certo, vai para o CATCH
+		
+		catch (DivideByZeroException dbze)      esta exceção é quando é gerada a tentativa de dividir por zero
+				é uma classe System.DivideByZeroException
+
+	METODO PARA ERRO DO CATCH
+		catch (DivideByZeroException dbze)  //esta exceção é quando é gerada a tentativa de dividir por zero
+		Console.WriteLine(dbze.Message);    vai escrever o erro adquirido pelo metodo dbze.Message
+
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+OBS: 
+	QUOCIENTE = quantidade produzida pela divisão de dois números
